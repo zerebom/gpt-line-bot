@@ -15,6 +15,6 @@ services:
       dockerfile: environments/Dockerfile
     tty: true
     volumes:
-        - ../../:/home/challenger/ascender
+        - ../../:/home/kokoro/gpt-line-bot
     ports:
         - 8000:8000
